@@ -4,7 +4,7 @@ const HotelCard = () => {
       {/* Image */}
       <div className="relative w-full md:w-1/3 rounded-xl overflow-hidden">
         <img
-          src="https://via.placeholder.com/300x200"
+          src="/Images/hotel.jpg"
           alt="Hotel"
           className="w-full h-full object-cover"
         />
@@ -16,10 +16,10 @@ const HotelCard = () => {
       {/* Content */}
       <div className="flex-1 flex flex-col justify-between">
         <div>
-          <h3 className="text-lg font-semibold text-gray-800">
+          <h3 className="text-lg font-semibold text-gray-800 text-left">
             Ambassador Hotel, Bangkok
           </h3>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600 text-left">
             Sukimvit Soi 6, Bangkok, Thailand
           </p>
 
