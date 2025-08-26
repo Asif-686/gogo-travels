@@ -2,13 +2,12 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import Aboutus from "../Components/Aboutus";
 import { ArrowUpRight } from "lucide-react";
-import bg1 from "/Images/about_us-1.png";
-import bg2 from "/Images/about_us-2.png";
+
 import Testimonials from "../Components/Testimonials";
 import Newsletter from "../Components/Newsletter";
 import FaqSection from "../Components/FaqSection";
 // ✅ import the image from src
-import bgImage from "/Images/Insurance-hero.png"; // adjust path if this file is elsewhere
+
 
 export default function Travel() {
   return (
@@ -19,7 +18,7 @@ export default function Travel() {
       <section className="bg-white px-[80px] py-12 md:px-[80px] px-6 ">
         <div
           className="relative bg-cover bg-center rounded-[32px] overflow-hidden min-h-[636px]"
-          style={{ backgroundImage: `url(${bgImage})` }}
+          style={{ backgroundImage: `url("/Images/Insurance-hero.png")` }}
         >
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/30" />
@@ -78,7 +77,7 @@ export default function Travel() {
         {/* Card 1 */}
         <div
           className="relative rounded-[24px] overflow-hidden shadow-md bg-cover bg-center w-[583px] h-[503px]"
-          style={{ backgroundImage: `url(${bg1})` }}
+          style={{ backgroundImage: `url("/Images/about_us-1.png")` }}
         >
           {/* Optional subtle overlay for readability */}
           <div className="absolute inset-0 bg-white/0" />
@@ -97,7 +96,7 @@ export default function Travel() {
         {/* Card 2 */}
         <div
           className="relative rounded-[24px] overflow-hidden shadow-md bg-cover bg-center w-[583px] h-[503px]"
-          style={{ backgroundImage: `url(${bg2})` }}
+          style={{ backgroundImage: `url("/Images/about_us-2.png")` }}
         >
           <div className="absolute inset-0 bg-white/0" />
           <div className="absolute right-6 bottom-6 text-right max-w-[60%]">

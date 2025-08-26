@@ -15,7 +15,7 @@ export default function TestimonialSection() {
             </h2>
           </div>
           <a
-            href="#"
+            href="@"
             className="text-sm text-[#EF3D5B] border border-[#EF3D5B] px-4 py-1 rounded-full hover:bg-[#ef3d5b]/10"
           >
             See All
@@ -30,7 +30,7 @@ export default function TestimonialSection() {
             detail="Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping us through everything smoothly."
             name="Joel Schwartz"
             position="CEO, Atikim Auctions"
-            image={require("../Images/testimonial3.png")}
+            image="/Images/testimonial3.png"
           />
 
           {/* Card 2 */}
@@ -39,7 +39,7 @@ export default function TestimonialSection() {
             detail="A real sense of community, nurtured. Really appreciate the help and support from the staff during the move-in and settling process. Everything was seamless!"
             name="Alex Roberts"
             position="Executive, Studio 87"
-            image={require("../Images/Testimonial2.png")}
+            image="/Images/Testimonial2.png"
           />
 
           {/* Card 3 */}
@@ -48,7 +48,7 @@ export default function TestimonialSection() {
             detail="From the first call to the end of the process, I felt heard and supported. The space, the community, and the staff are simply amazing. Highly recommended!"
             name="Avanti Samson"
             position="Avanti Associates"
-            image={require("../Images/Testimonial1.png")}
+            image="/Images/Testimonial1.png"
           />
         </div>
       </div>

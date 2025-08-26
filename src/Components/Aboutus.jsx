@@ -5,7 +5,7 @@ export default function AboutSection() {
         {/* Left Image (max 505px) */}
         <div className="w-full md:w-1/2 rounded-[40px] overflow-hidden shadow-md h-auto md:h-[505px] max-h-[505px]">
           <img
-            src={require("../Images/about-image.png")}
+            src="/Images/about-image.png"
             alt="About GoGo Travel"
             className="w-full h-full object-cover"
           />

@@ -1,11 +1,11 @@
 import { ArrowUpRight, CalendarDays, MapPin, UserPlus } from "lucide-react";
-import HomeHero from "/Images/HomeHero.png"; // ✅ Using your imported image
 
 export default function HeroSection() {
   return (
     <section
       className="relative bg-cover bg-center min-h-[636px] px-6 md:px-20 py-10 flex items-center justify-center"
-      style={{ backgroundImage: `url(${HomeHero})` }}
+      style={{ backgroundImage: `url('/Images/HomeHero.png')` }}
+
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-w-7xl">
         {/* LEFT CONTENT */}
