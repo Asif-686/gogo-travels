@@ -1,5 +1,5 @@
 import { ArrowUpRight, CalendarDays, MapPin, UserPlus } from "lucide-react";
-import HomeHero from "../Images/HomeHero.png"; // ✅ Using your imported image
+import HomeHero from "/Images/HomeHero.png"; // ✅ Using your imported image
 
 export default function HeroSection() {
   return (

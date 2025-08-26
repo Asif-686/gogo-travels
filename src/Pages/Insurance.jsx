@@ -8,7 +8,7 @@ import Testimonials from "../Components/Testimonials";
 import Newsletter from "../Components/Newsletter";
 import FaqSection from "../Components/FaqSection";
 // ✅ import the image from src
-import bgImage from "../Images/Insurance-hero.png"; // adjust path if this file is elsewhere
+import bgImage from "/Images/Insurance-hero.png"; // adjust path if this file is elsewhere
 
 export default function Travel() {
   return (
