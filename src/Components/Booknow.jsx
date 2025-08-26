@@ -78,12 +78,12 @@ export default function HotelHighlightSection() {
         {/* RIGHT SIDE – Cards side-by-side */}
         <div className="w-full md:w-[464px] flex flex-row gap-6 justify-end">
           <HotelCard
-            image="/Left.png"
+            image="Images/Left.png"
             title="Hotel Schweizerhof"
             location="Bern, Switzerland"
           />
           <HotelCard
-            image="/Right.png"
+            image="Images/Right.png"
             title="The Seminyak Resort"
             location="Bali, Indonesia"
           />
