@@ -7,12 +7,12 @@ export default function HotelHighlightSection() {
         {/* LEFT SIDE */}
         <div className="w-full max-w-[616px] relative bg-white">
           {/* Title */}
-          <h2 className="text-[#073C60] text-[24px] font-bold leading-tight mb-4">
+          <h2 className="text-[#073C60] text-[24px] font-bold leading-tight mb-4 text-left">
             Explore Our 1000+ Hotels Worldwide
           </h2>
 
           {/* Paragraph */}
-          <p className="text-[#4B4B4B] text-sm leading-[1.6] mb-6">
+          <p className="text-[#4B4B4B] text-sm leading-[1.6] mb-6 text-left">
             Our global hospitality is one of a kind. Indulge in our hub of 1000+
             hotels worldwide, each representing a unique scenario of either
             bustling metropolises or beautiful suburbs. Let us guide you to your
@@ -20,46 +20,53 @@ export default function HotelHighlightSection() {
           </p>
 
           {/* Button */}
-          <button className="bg-[#073C60] text-white text-sm px-6 py-2 rounded-full mb-6 hover:bg-[#052c48] transition">
-            Explore More
-          </button>
+          <div className="mb-8 text-left" >
+            <button className="bg-[#073C60] text-white text-sm px-6 py-2 rounded-full mb-6 hover:bg-[#052c48] transition ">
+              Explore More
+            </button>
+          </div>
 
           {/* Feature Card */}
-          <div className="relative bg-white rounded-[30px] shadow-md p-6">
-            <h4 className="font-semibold text-[#1E1E1E] mb-4 text-[14px]">
+          <div
+            className="relative bg-white rounded-[30px] shadow-md p-6 h-[213px] py-[21px] px-[37px] "
+            style={{
+              filter: "drop-shadow(-4px 8px 40px rgba(0, 0, 0, 0.07))",
+            }}
+          >
+            <h4 className="font-semibold text-[#1E1E1E] mb-4 text-[15px] font-bold text-left">
               Unveiling Beachside Bliss and Urban Adventures
             </h4>
-            <div className="flex flex-col md:flex-row gap-6">
+            <div className="flex flex-col md:flex-row gap-[60px] pt-[40px]">
               {/* Beach Resorts */}
-              <div className="flex-1">
+              <div className="flex-1 w-[227px]">
                 <div className="flex items-center gap-2 mb-1">
                   <img
-                    src="/Icons/beach.svg"
+                    src="/Icons/villa.svg"
                     alt="Beach Icon"
                     className="h-5 w-5"
                   />
-                  <p className="font-semibold text-[#1E1E1E] text-sm">
+                  <p className="font-semibold text-[#1E1E1E] text-sm text-left">
                     Beach Resorts
                   </p>
                 </div>
-                <p className="text-sm text-[#4B4B4B]">
+                <p className="text-sm text-[#4B4B4B] text-left">
                   Embrace the azure shores with our exclusive beach resort.
                 </p>
               </div>
 
               {/* City Escapes */}
-              <div className="flex-1">
+              <div className="flex-1 w-[227px]">
                 <div className="flex items-center gap-2 mb-1">
                   <img
-                    src="/Icons/city.svg"
+                    src="/Icons/villa.svg"
                     alt="City Icon"
                     className="h-5 w-5"
                   />
-                  <p className="font-semibold text-[#1E1E1E] text-sm">
+                  <p className="font-semibold text-[#1E1E1E] text-sm text-left">
                     City Escapes
                   </p>
                 </div>
-                <p className="text-sm text-[#4B4B4B]">
+                <p className="text-sm text-[#4B4B4B] text-left">
                   Enjoy the heartbeat of the metropolises where unexpected joy
                   awaits in every corner.
                 </p>
@@ -69,7 +76,7 @@ export default function HotelHighlightSection() {
         </div>
 
         {/* RIGHT SIDE – Cards side-by-side */}
-        <div className="w-full md:w-1/2 flex flex-row gap-6 justify-end">
+        <div className="w-full md:w-[464px] flex flex-row gap-6 justify-end">
           <HotelCard
             image="/Left.png"
             title="Hotel Schweizerhof"
